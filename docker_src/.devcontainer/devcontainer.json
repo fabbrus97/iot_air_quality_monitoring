@@ -1,0 +1,27 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+	"dockerFile": "Dockerfile",
+	"build": {
+		"args": {
+			"WORKSPACE": "${containerWorkspaceFolder}"
+		}
+	},
+	// "appPort": [8080, 5683], //http, coap
+	"runArgs": [
+		"--network=host"
+	],
+	"remoteUser": "iot",
+	"remoteEnv": { "LOCAL_USER_PATH": "${localEnv:HOME}${localEnv:USERPROFILE}" },
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash"
+	},
+	"extensions": [
+		"ms-azuretools.vscode-docker"
+	]
+}

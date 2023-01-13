@@ -1,0 +1,9 @@
+FROM python:3.7-alpine
+WORKDIR /workspace
+
+COPY extra/telegram_bot/requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+COPY settings.json settings.json
+COPY extra/telegram_bot telegram_bot
+
+CMD ["python3", "-m", "telegram_bot"]

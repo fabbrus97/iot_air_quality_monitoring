@@ -1,0 +1,11 @@
+{
+    "token": "JFw6cD7sciRoVX1vjrj8nfC8hahAYAN3-mlplIfnTzU2OGezVBQh9nDQMILqzdGr_88UFo0lHXQ7pP",
+    "bucket": "data",
+    "org": "iot",
+    "predict_seconds": 100,
+    "sample_frequency": 5,
+    "telegram_token": "xxx",
+    "telegram_update_frequency": 14400,   
+    "grafana_api_key": "eyJrIjoienRPQWNJT2dIRXFRcWhhbDVCVlZoQ1RENlRSdG5wV2EiLCJuIjoidGVsZWdyYW0gYm90IiwiaWQiOjF9",
+    "telegram_chat_id": 63570754
+}

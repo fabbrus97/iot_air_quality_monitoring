@@ -1,0 +1,2 @@
+meteostat
+influxdb_client
