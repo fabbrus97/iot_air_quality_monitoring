@@ -29,7 +29,7 @@ def get_picture(link, dashboard, id):
 
 def get_data(_to, _from, _dashboard, ids):
     for id in ids:
-        link = f"http://localhost:3000/render/d-solo/{_dashboard}/iot?orgId=1&from={_from}&to={_to}&panelId={id}&width=1000&height=500&tz=Europe%2FRome"
+        link = f"http://docker_src-grafana-1:3000/render/d-solo/{_dashboard}/iot?orgId=1&from={_from}&to={_to}&panelId={id}&width=1000&height=500&tz=Europe%2FRome"
         print("Downloading image panel", _dashboard, id)
         get_picture(link, _dashboard, id)
 

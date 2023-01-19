@@ -12,13 +12,13 @@ token = settings["token"]
 bucket = settings["bucket"]
 org = settings["org"]
 
-client = InfluxDBClient(url="http://docker_src-influx-1:8086", token=token, org=org)
+client = InfluxDBClient(url="http://localhost:8086", token=token, org=org)
 query_api = client.query_api()
 write_api = client.write_api(write_options=SYNCHRONOUS)
 
-stop = "2022-11-09T16:05:00Z"
+stop = "2023-01-16T23:59:59Z"
 # datetime.isoformat(datetime.today() - datetime.timedelta(hours=1))
-start =  "2022-11-09T15:00:00Z"
+start =  "2023-01-17T23:59:59Z"
 # datetime.isoformat(datetime.today() - datetime.timedelta(hours=4))
 
 query =  'from(bucket:"{}")' \
