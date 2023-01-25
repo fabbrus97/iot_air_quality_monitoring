@@ -1,0 +1,4 @@
+prophet
+influxdb_client
+plotly
+scikit-learn

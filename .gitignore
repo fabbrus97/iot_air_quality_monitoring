@@ -1,4 +1,6 @@
 main.ino
 perf_eval.ino
-
 settings.json
+performance_eval/prophet/bin
+performance_eval/prophet/lib
+performance_eval/prophet/share
