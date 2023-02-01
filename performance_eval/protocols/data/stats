@@ -1,0 +1,37 @@
+HTTP 100
+mean: 124.567
+median: 65.0
+max: 4424
+min: 54
+
+HTTP 500
+mean: 251.12136409227682
+median: 75
+max: 4515
+min: 30
+
+HTTP 1000
+mean: 267.8978978978979
+median: 95
+max: 4575
+min: 54
+
+
+
+COAP 100
+mean: 278.5839416058394
+median: 278
+max: 575
+min: 7
+
+COAP 500
+mean: 266.31315240083507
+median: 273.0
+max: 596
+min: 7
+
+COAP 1000
+mean: 264.5889698231009
+median: 261
+max: 788
+min: 6

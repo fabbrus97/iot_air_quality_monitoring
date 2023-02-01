@@ -1,3 +1,8 @@
+*.aux
+*.log
+*.gz
+*.out 
+
 main.ino
 perf_eval.ino
 settings.json
