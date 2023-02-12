@@ -1,9 +1,8 @@
 #include "settings.h"
 
-//const int COAP_SERVER_IP[] = {192, 168, 43, 6}; 
-const int COAP_SERVER_IP[] = {192, 168, 1, 16}; 
+const int COAP_SERVER_IP[] = {192, 168, 244, 243}; 
 const int COAP_PORT = 5683;
-const char* HTTP_SERVER = "http://192.168.43.6:8080/data";
+const char* HTTP_SERVER = "http://192.168.244.243:8082/data";
 int SAMPLE_FREQUENCY = 5 * 1000; // seconds - can be changed at runtime
 int PROTOCOL = COAP;
 //for gas computations:

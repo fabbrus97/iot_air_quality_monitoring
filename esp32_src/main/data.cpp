@@ -97,8 +97,7 @@ void send_data(){
       Serial.print("DEBUG invio: "); Serial.println(postData);
 
       Serial.println("Sending post request...");
-      http.begin("http://192.168.43.6:8080/data");
-      //http.begin("http://192.168.1.17:8080/data");
+      http.begin(HTTP_SERVER);
       http.POST(postData);
       Serial.println("post done");
       // read the status code and body of the response

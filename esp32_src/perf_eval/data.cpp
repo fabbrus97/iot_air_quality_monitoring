@@ -84,7 +84,6 @@ void send_data(){
       
       long _start = millis();
       http.begin(HTTP_SERVER);
-      //http.begin("http://192.168.1.18:8080/data");
       int statusCode = http.POST(postData);
       long _stop = millis();
       Serial.print(statusCode); Serial.print(","); Serial.println(_stop - _start);
